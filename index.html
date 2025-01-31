@@ -41,6 +41,10 @@
     .heading-font {
       font-family: "ADLaM Display", serif;
     }
+
+    .bg-neutral {
+      background-color: oklch(0.93 0.01 256.07);
+    }
   </style>
 </head>
 
@@ -115,7 +119,246 @@
   <!-- main -->
   <main>
     <!-- Browse section -->
-     
+    <section class="mt-24 mb-24 lg:w-10/12 w-11/12 mx-auto">
+      <h1 class="heading-font text-4xl mb-10">Browse By Categories</h1>
+      <div class="grid grid-cols-2 lg:grid-cols-6 gap-3 lg:gap-2 items-center px-2">
+        <!-- card 1 -->
+        <div class="bg-[#F9DF8A] text-center py-6 px-8 space-y-4 rounded-xl">
+          <div class="avatar placeholder">
+            <div class="bg-neutral text-neutral-content w-20 rounded-full">
+              <span> <img src="./c1-assets/dog-cartoon.png" alt=""></span>
+            </div>
+          </div>
+          <div class="space-y-2">
+            <h1 class="heading-font text-xl">Dog</h1>
+            <p class="sora">3 items</p>
+          </div>
+        </div>
+        <!-- card 2 -->
+        <div class="bg-[#F9DF8A] text-center py-6 px-8 space-y-4 rounded-xl">
+          <div class="avatar placeholder">
+            <div class="bg-neutral text-neutral-content w-20 rounded-full">
+              <span><img src="./c1-assets/fish-cartoon.png" alt=""></span>
+            </div>
+          </div>
+          <div class="space-y-2">
+            <h1 class="heading-font text-xl">Fish</h1>
+            <p class="sora">3 items</p>
+          </div>
+        </div>
+
+        <!-- card 3 -->
+        <div class="bg-[#F9DF8A] text-center py-6 px-8 space-y-4 rounded-xl">
+          <div class="avatar placeholder">
+            <div class="bg-neutral text-neutral-content w-20 rounded-full">
+              <span> <img src="./c1-assets/cat-cartoon.png" alt=""></span>
+            </div>
+          </div>
+          <div class="space-y-2">
+            <h1 class="heading-font text-xl">Cat</h1>
+            <p class="sora">3 items</p>
+          </div>
+        </div>
+
+        <!-- card 4 -->
+        <div class="bg-[#F9DF8A] text-center py-6 px-8 space-y-4 rounded-xl">
+          <div class="avatar placeholder">
+            <div class="bg-neutral text-neutral-content w-20 rounded-full">
+              <span> <img src="./c1-assets/bird-cartoon.png" alt=""></span>
+            </div>
+          </div>
+          <div class="space-y-2">
+            <h1 class="heading-font text-xl">Birds</h1>
+            <p class="sora">3 items</p>
+          </div>
+        </div>
+
+        <!-- card 5 -->
+        <div class="bg-[#F9DF8A] text-center py-6 px-8 space-y-4 rounded-xl">
+          <div class="avatar placeholder">
+            <div class="bg-neutral text-neutral-content w-20 rounded-full">
+              <span> <img src="./c1-assets/mouse-cartoon.png" alt=""></span>
+            </div>
+          </div>
+          <div class="space-y-2">
+            <h1 class="heading-font text-xl">Small pet</h1>
+            <p class="sora">3 items</p>
+          </div>
+        </div>
+
+        <!-- card 6 -->
+        <div class="bg-[#F9DF8A] text-center py-6 px-8 space-y-4 rounded-xl">
+          <div class="avatar placeholder">
+            <div class="bg-neutral text-neutral-content w-20 rounded-full">
+              <span> <img src="./c1-assets/rabbit-cartoon.png" alt=""></span>
+            </div>
+          </div>
+          <div class="space-y-2">
+            <h1 class="heading-font text-xl">Rabit</h1>
+            <p class="sora">2 items</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- trending pets -->
+    <section class="bg-[#FFF9F4]">
+      <!-- main container -->
+      <div class="lg:w-10/12 w-11/12 mx-auto grid grid-cols-5 grid-rows-3 p-4 gap-4 ">
+        <!-- first div -->
+        <div class="hero bg-base-200 col-span-2 row-span-3">
+          <div class="hero-content flex-col lg:flex-row">
+            <div class="bg-yellow-100 p-3"><img src="./c1-assets/dog-cartoon.png" alt=""></div>
+            <div>
+              <div class="rating space-x-1">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <span>4.5</span>
+              </div>
+              <h1 class="heading-font">Pet Bed</h1>
+              <p class="py-1 sora"> $39.99</p>
+            </div>
+          </div>
+        </div>
+        <!-- second div -->
+        <div class="hero bg-base-200">
+          <div class="hero-content flex-col lg:flex-row">
+            <div class="bg-yellow-100 p-3"><img src="./c1-assets/dog-cartoon.png" alt=""></div>
+            <div>
+              <div class="rating space-x-1">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <span>4.5</span>
+              </div>
+              <h1 class="heading-font">Pet Bed</h1>
+              <p class="py-1 sora"> $39.99</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- third div -->
+        <div class="hero bg-base-200">
+          <div class="hero-content flex-col lg:flex-row">
+            <div class="bg-yellow-100 p-3"><img src="./c1-assets/fish-cartoon.png" alt=""></div>
+            <div>
+              <div class="rating space-x-1">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <span>4.5</span>
+              </div>
+              <h1 class="heading-font">Pet Bed</h1>
+              <p class="py-1 sora"> $39.99</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- fourth div -->
+        <div class="hero bg-base-200">
+          <div class="hero-content flex-col lg:flex-row">
+            <div class="bg-yellow-100 p-3"><img src="./c1-assets/bird-cartoon.png" alt=""></div>
+            <div>
+              <div class="rating space-x-1">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <span>4.5</span>
+              </div>
+              <h1 class="heading-font">Pet Bed</h1>
+              <p class="py-1 sora"> $39.99</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- fifth div -->
+        <div class="hero bg-base-200">
+          <div class="hero-content flex-col lg:flex-row">
+            <div class="bg-yellow-100 p-3"><img src="./c1-assets/rabbit-cartoon.png" alt=""></div>
+            <div>
+              <div class="rating space-x-1">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <span>4.5</span>
+              </div>
+              <h1 class="heading-font">Pet Bed</h1>
+              <p class="py-1 sora"> $39.99</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- sixth div -->
+        <div class="hero bg-base-200">
+          <div class="hero-content flex-col lg:flex-row">
+            <div class="bg-yellow-100 p-3"><img src="./c1-assets/bird-cartoon.png" alt=""></div>
+            <div>
+              <div class="rating space-x-1">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <span>4.5</span>
+              </div>
+              <h1 class="heading-font">Pet Bed</h1>
+              <p class="py-1 sora"> $39.99</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- seventh div -->
+        <div class="hero bg-base-200">
+          <div class="hero-content flex-col lg:flex-row">
+            <div class="bg-yellow-100 p-3"><img src="./c1-assets/pet-couch.png" alt=""></div>
+            <div>
+              <div class="rating space-x-1">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <span>4.5</span>
+              </div>
+              <h1 class="heading-font">Pet Bed</h1>
+              <p class="py-1 sora"> $39.99</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- eight div -->
+        <div class="hero bg-base-200">
+          <div class="hero-content flex-col lg:flex-row">
+            <div class="bg-yellow-100 p-3"><img src="./c1-assets/fish-cartoon.png" alt=""></div>
+            <div>
+              <div class="rating space-x-1">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <span>4.5</span>
+              </div>
+              <h1 class="heading-font">Pet Bed</h1>
+              <p class="py-1 sora"> $39.99</p>
+            </div>
+          </div>
+        </div>
+        <!-- ninth div -->
+        <div class="hero bg-base-200">
+          <div class="hero-content flex-col lg:flex-row">
+            <div class="bg-yellow-100 p-3"><img src="./c1-assets/pet-couch.png" alt=""></div>
+            <div>
+              <div class="rating space-x-1">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <span>4.5</span>
+              </div>
+              <h1 class="heading-font">Pet Bed</h1>
+              <p class="py-1 sora"> $39.99</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- tenth div -->
+        <div class="hero bg-base-200">
+          <div class="hero-content flex-col lg:flex-row">
+            <div class="bg-yellow-100 p-3"><img src="./c1-assets/rabbit-cartoon.png" alt=""></div>
+            <div>
+              <div class="rating space-x-1">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <span>4.5</span>
+              </div>
+              <h1 class="heading-font">Pet Bed</h1>
+              <p class="py-1 sora"> $39.99</p>
+            </div>
+          </div>
+        </div>
+
+
+
+      
+      </div>
+    </section>
+
   </main>
 
   <!-- footer -->
