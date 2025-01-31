@@ -203,7 +203,9 @@
 
     <!-- trending pets -->
     <section class="bg-[#FFF9F4] mt-36 mb-24 lg:py-14">
-      <div><h1 class="heading-font text-3xl lg:text-5xl lg:w-10/12 w-11/12 mx-auto lg:mb-6">Trending Pet Products</h1></div>
+      <div>
+        <h1 class="heading-font text-3xl lg:text-5xl lg:w-10/12 w-11/12 mx-auto lg:mb-6">Trending Pet Products</h1>
+      </div>
       <!-- main container -->
       <div class="lg:w-10/12 w-11/12 mx-auto grid grid-cols-2 lg:grid-cols-5 lg:grid-rows-3 p-4 gap-4 ">
         <!-- first div -->
@@ -216,7 +218,7 @@
             </div>
           </div>
           <div class="flex justify-end -mt-32">
-            <img class="lg:absolute lg:bottom-0 lg:right-0 h-80" src="./c1-assets/cute-pet-small.png" alt=""/>
+            <img class="lg:absolute lg:bottom-0 lg:right-0 h-80" src="./c1-assets/cute-pet-small.png" alt="" />
           </div>
         </div>
 
@@ -359,44 +361,105 @@
     </section>
 
     <!-- price section -->
-     <section class="mt-24 mb-24 lg:w-10/12 w-11/12 mx-auto">
+    <section class="mt-24 mb-24 lg:w-10/12 w-11/12 mx-auto">
       <!-- text -->
-       <div>
-        <h1 class="heading-font text-4xl">Everyday low Price</h1>
-       </div>
-       <!-- container -->
-        <div class="lg:flex mt-12 lg:gap-4 space-y-5">
-          <!-- div-1 -->
-           <div class="flex items-center bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD] py-5">
-            <!-- content -->
-             <div class="flex-1 ml-10">
-              <h1 class="sora text-xl">Under Price</h1>
-              <p class="heading-font text-3xl">Pet Grooming Mitt</p>
-              <p class="heading-font text-2xl text-white">(Easy Hair Removal)</p>
-              <p class="heading-font text-5xl">$7.99</p>
-             </div>
-             <!-- image -->
-              <div class="flex-1">
-                <img src="./c1-assets/cute-dog-mid.png" alt="">
-              </div>
+      <div>
+        <h1 class="heading-font text-5xl font-bold">Everyday low Price</h1>
+      </div>
+      <!--price card container -->
+      <div class="flex flex-col lg:flex-row mt-12 lg:gap-4 space-y-6 lg:space-y-0 w-full">
+        <!-- div-1 -->
+        <div class="lg:w-[70%] w-full flex items-center bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD] py-5">
+          <!-- content -->
+          <div class="flex-1 ml-10">
+            <h1 class="sora text-xl">Under Price</h1>
+            <p class="heading-font text-3xl">Pet Grooming Mitt</p>
+            <p class="heading-font text-2xl text-white">(Easy Hair Removal)</p>
+            <p class="heading-font text-5xl">$7.99</p>
+          </div>
+          <!-- image -->
+          <div class="flex-1">
+            <img src="./c1-assets/cute-dog-mid.png" alt="">
+          </div>
+        </div>
+
+        <!-- div-2 -->
+        <div
+          class="lg:w-[30%] w-full shadow-lg flex flex-col justify-between relative  bg-gradient-to-r from-[#FFF9F4] to-[#F9DF8A]">
+          <!-- Product Details -->
+          <div class="mt-16 flex-1 ml-5 lg:ml-0">
+            <h2 class="lg:text-4xl text-3xl font-bold">T-Shirt for Dogs</h2>
+            <p class="text-xl font-bold">Comfortable & Stylish</p>
+            <p class="lg:text-4xl font-bold mt-2 text-yellow-500">$7.99</p>
+          </div>
+
+          <!-- Product Image -->
+           <div class="flex justify-end">
+            <img src="./c1-assets/cute-pet-mid.png" alt="">
            </div>
 
-           <!-- div-2 -->
-            <div class="relative flex items-center bg-gradient-to-r from-[#FFF9F4] to-[#F9DF8A]">
-              <div>
-                <h1>T-Shirt for Dogs</h1>
-              <p>$7.99</p>
-              </div>
-              <img src="./c1-assets/cute-pet-small.png" alt="" class="absolute bottom-0 right-0 h-full bg-contain">
-            </div>
-            
+
         </div>
-     </section>
+
+      </div>
+    </section>
   </main>
 
   <!-- footer -->
   <footer>
+    <section class="mt-[400px] bg-yellow-300">
+      <!-- footer top -->
+      <div
+        class="w-11/12 lg:w-10/12 mx-auto bg-yellow-100 flex flex-col lg:flex-row items-center justify-center lg:gap-12 h-auto transform -translate-y-64 lg:-translate-y-44 rounded-xl pb-4 lg:mb-0">
+        <!-- image -->
+        <div class="flex justify-start">
+          <img class="lg:py-6 h-64 lg:h-80 pt-2" src="./c1-assets/cute-pet-mid.png" alt="">
+        </div>
+        <!-- content -->
+        <div class="text-center space-y-4">
+          <h1 class="heading-font text-3xl lg:mb-5">Get awsome News!</h1>
+          <p class="sora lg:mb-8">
+            Exclusive training tips, ticks, product deals and more.
+          </p>
+          <input type="text" placeholder="Enter email" class="input input-bordered w-full max-w-xs lg:mb-8" />
+          <button class="btn bg-yellow2 px-8 py-3">Subscribe</button>
+        </div>
+      </div>
 
+      <!-- footer footer -->
+      <div
+        class="w-11/12 lg:w-10/12 mx-auto -mt-52 lg:-mt-12  pb-14 gap-5 flex flex-col lg:flex-row text-start lg:justify-between lg:pb-32">
+        <!-- left -->
+        <div>
+          <div class="flex items-center gap-2">
+            <img src="./c1-assets/logo-footer.png" alt=""><span class="sora text-2xl">Browse4Pets</span>
+          </div>
+          <p class="sora">Discover a world of treats, toys, and <br> essentials handpicked for your furry <br> friends
+          </p>
+        </div>
+
+        <!-- middle -->
+        <div class="sora lg:space-y-8 space-y-4">
+          <p>Find a pet</p>
+          <p>Breeds</p>
+          <p>Contact us</p>
+        </div>
+
+        <!-- right -->
+        <div class="flex flex-col justify-end ">
+          <div>
+            <p>Follow us</p>
+          </div>
+          <div class="skew-x-2">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+
+    </section>
   </footer>
 </body>
 
