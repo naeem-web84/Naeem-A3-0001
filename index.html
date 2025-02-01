@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./c1-assets/logo-header.png" type="image/x-icon">
   <title>Browse4Cat</title>
   <!-- Google fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -98,10 +99,14 @@
       </div>
     </nav>
 
+    <!-- border -->
+    <div class=" border border-1 border-yellow-300 lg:hidden md:hidden block"></div>
+
     <!-- Banner section -->
     <section class="mt-0 mb-12 lg:w-10/12 w-11/12 mx-auto">
       <div class="absolute lg:absolute md:absolute  flex flex-col mt-7 lg:mt-20">
-        <h1 class="text-black text-4xl heading-font"><span class="text-yellow-300">Pamper</span> Your Pet, <br> Because They <span class="text-yellow-300">Deserve</span><br> the <span class="text-yellow-300">Best</span></h1> <br>
+        <h1 class="text-black text-4xl heading-font"><span class="text-yellow-400">Pamper</span> Your Pet, <br> Because
+          They <span class="text-yellow-400">Deserve</span><br> the <span class="text-yellow-400">Best</span></h1> <br>
         <p class="text-black sora text-xl px-2">Discover a world of treats, toys, and<br> essentials handpicked for your
           furry friends.<br>Shop now and make tails wag with joy!</p>
         <br>
@@ -121,7 +126,7 @@
   <main>
     <!-- Browse section -->
     <section class="mt-24 mb-24 lg:w-10/12 w-11/12 mx-auto">
-      <h1 class="heading-font text-4xl mb-10">Browse By Categories</h1>
+      <h1 class="heading-font text-3xl lg:text-4xl mb-10">Browse By Categories</h1>
       <div class="grid grid-cols-2 lg:grid-cols-6 gap-2 lg:gap-1 items-center px-2">
         <!-- card 1 -->
         <div class="bg-[#F9DF8A] text-center py-6 px-8 space-y-4 rounded-xl">
@@ -203,116 +208,106 @@
     </section>
 
     <!-- CREATED BY ME OUR GALLERY SECTION -->
-       <section class="lg:mt-24 mt-10 lg:mb-24">
-        <!-- our gallery -->
-         <div>
-          <h1 class="lg:w-10/12 w-11/12 mx-auto heading-font text-5xl mb-10">Our Gallery</h1>
-         </div>
+    <section class="lg:mt-24 mt-10 lg:mb-24">
+      <!-- our gallery -->
+      <div>
+        <h1 class="lg:w-10/12 w-11/12 mx-auto heading-font text-5xl mb-10">Our Gallery</h1>
+      </div>
 
-        <!-- gallery container -->
-         <div class="lg:w-10/12 w-11/12 mx-auto grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-          <!-- first card persian cats-->
-          <div class="card bg-yellow-50 shadow-xl h-[450px] border border-yellow-200">
-            <figure>
-              <img
-                src="./c1-assets/persian-cats.avif"
-                alt="persian cats" class="mt-10 mx-8"/>
-            </figure>
-            <div class="card-body">
-              <h2 class="card-title heading-font">Persian Cat</h2>
-              <p class="sora">Persian cats are gentle, affectionate, and love a peaceful, cozy life filled with cuddles and pampering.</p>
-              <div class="card-actions justify-end">
-                <button class="btn bg-yellow2 px-6 py-3">Explore</button>
-              </div>
+      <!-- gallery container -->
+      <div class="lg:w-10/12 w-11/12 mx-auto grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+        <!-- first card persian cats-->
+        <div class="card bg-yellow-50 shadow-xl h-[450px] border border-yellow-200">
+          <figure>
+            <img src="./c1-assets/persian-cats.avif" alt="persian cats" class="mt-10 mx-8" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title heading-font">Persian Cat</h2>
+            <p class="sora">Persian cats are gentle, affectionate, and love a peaceful, cozy life filled with cuddles
+              and pampering.</p>
+            <div class="card-actions justify-end">
+              <button class="btn bg-yellow2 px-6 py-3">Explore</button>
             </div>
           </div>
+        </div>
 
-          <!-- second card oriental cats-->
-          <div class="card bg-yellow-50 shadow-xl h-[450px] border border-yellow-200">
-            <figure>
-              <img
-                src="./c1-assets/OrientalShorthair2-scaled.jpg"
-                alt="oriental cats" class="-mt-7"/>
-            </figure>
-            <div class="card-body">
-              <h2 class="card-title heading-font">Oriental Cat</h2>
-              <p class="sora">Elegant and slender, Oriental cats have striking eyes, large ears, and a playful, intelligent charm.</p>
-              <div class="card-actions justify-end">
-                <button class="btn bg-yellow2 px-6 py-3">Explore</button>
-              </div>
+        <!-- second card oriental cats-->
+        <div class="card bg-yellow-50 shadow-xl h-[450px] border border-yellow-200">
+          <figure>
+            <img src="./c1-assets/OrientalShorthair2-scaled.jpg" alt="oriental cats" class="-mt-7" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title heading-font">Oriental Cat</h2>
+            <p class="sora">Elegant and slender, Oriental cats have striking eyes, large ears, and a playful,
+              intelligent charm.</p>
+            <div class="card-actions justify-end">
+              <button class="btn bg-yellow2 px-6 py-3">Explore</button>
             </div>
           </div>
+        </div>
 
-          <!-- third card Russian blue Cats-->
-          <div class="card bg-yellow-50 shadow-xl h-[450px] border border-yellow-200">
-            <figure>
-              <img
-                src="./c1-assets/russian-blue.jpg"
-                alt="russian-blue" class="-mt-7"/>
-            </figure>
-            <div class="card-body">
-              <h2 class="card-title heading-font">Russian blue Cat</h2>
-              <p class="sora">Russian Blue cats are graceful, with plush blue-gray fur, emerald eyes, and a gentle, loyal nature .</p>
-              <div class="card-actions justify-end">
-                <button class="btn bg-yellow2 px-6 py-3">Explore</button>
-              </div>
+        <!-- third card Russian blue Cats-->
+        <div class="card bg-yellow-50 shadow-xl h-[450px] border border-yellow-200">
+          <figure>
+            <img src="./c1-assets/russian-blue.jpg" alt="russian-blue" class="-mt-7" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title heading-font">Russian blue Cat</h2>
+            <p class="sora">Russian Blue cats are graceful, with plush blue-gray fur, emerald eyes, and a gentle, loyal
+              nature .</p>
+            <div class="card-actions justify-end">
+              <button class="btn bg-yellow2 px-6 py-3">Explore</button>
             </div>
           </div>
+        </div>
 
-          <!-- fourth card Labradors Dogs-->
-          <div class="card bg-yellow-50 shadow-xl h-[450px] border border-yellow-200">
-            <figure>
-              <img
-                src="./c1-assets/labradors-dogs.avif"
-                alt="labradors-dogs" class="mt-9"/>
-            </figure>
-            <div class="card-body">
-              <h2 class="card-title heading-font">Labradors Dog</h2>
-              <p class="sora">Labrador Retrievers are friendly, intelligent, and loyal dogs with playful energy and a loving personality.</p>
-              <div class="card-actions justify-end">
-                <button class="btn bg-yellow2 px-6 py-3">Explore</button>
-              </div>
+        <!-- fourth card Labradors Dogs-->
+        <div class="card bg-yellow-50 shadow-xl h-[450px] border border-yellow-200">
+          <figure>
+            <img src="./c1-assets/labradors-dogs.avif" alt="labradors-dogs" class="mt-9" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title heading-font">Labradors Dog</h2>
+            <p class="sora">Labrador Retrievers are friendly, intelligent, and loyal dogs with playful energy and a
+              loving personality.</p>
+            <div class="card-actions justify-end">
+              <button class="btn bg-yellow2 px-6 py-3">Explore</button>
             </div>
           </div>
+        </div>
 
-          <!-- fifth card -->
-          <div class="card bg-yellow-50 shadow-xl h-[450px] border border-yellow-200">
-            <figure>
-              <img
-                src="./c1-assets/samoyed-dogs.avif"
-                alt="samoyed-dogs" class="-mt-16"/>
-            </figure>
-            <div class="card-body">
-              <h2 class="card-title heading-font">Samoyed Dog</h2>
-              <p class="sora">Samoyed dogs are fluffy, friendly, and energetic, with a signature 'Sammy smile' and loving nature.</p>
-              <div class="card-actions justify-end">
-                <button class="btn bg-yellow2 px-6 py-3">Explore</button>
-              </div>
+        <!-- fifth card -->
+        <div class="card bg-yellow-50 shadow-xl h-[450px] border border-yellow-200">
+          <figure>
+            <img src="./c1-assets/samoyed-dogs.avif" alt="samoyed-dogs" class="-mt-16" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title heading-font">Samoyed Dog</h2>
+            <p class="sora">Samoyed dogs are fluffy, friendly, and energetic, with a signature 'Sammy smile' and loving
+              nature.</p>
+            <div class="card-actions justify-end">
+              <button class="btn bg-yellow2 px-6 py-3">Explore</button>
             </div>
           </div>
+        </div>
 
-          <!-- sixth card -->
-          <div class="card bg-yellow-50 shadow-xl h-[450px] border border-yellow-200">
-            <figure>
-              <img
-                src="./c1-assets/asian-dog-breeds-pug-1584650179.avif"
-                alt="pug"/>
-            </figure>
-            <div class="card-body">
-              <h2 class="card-title heading-font">Pug Dog</h2>
-              <p class="sora">Pugs were bred in ancient times to be lovable dogs and they've been excelling at their job ever since.</p>
-              <div class="card-actions justify-end">
-                <button class="btn bg-yellow2 px-6 py-3">Explore</button>
-              </div>
+        <!-- sixth card -->
+        <div class="card bg-yellow-50 shadow-xl h-[450px] border border-yellow-200">
+          <figure>
+            <img src="./c1-assets/asian-dog-breeds-pug-1584650179.avif" alt="pug" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title heading-font">Pug Dog</h2>
+            <p class="sora">Pugs were bred in ancient times to be lovable dogs and they've been excelling at their job
+              ever since.</p>
+            <div class="card-actions justify-end">
+              <button class="btn bg-yellow2 px-6 py-3">Explore</button>
             </div>
           </div>
+        </div>
 
-         </div>
-       </section>
-
-
-
-
+      </div>
+    </section>
 
     <!-- trending pets -->
     <section class="bg-[#FFF9F4] lg:mt-36 mt-10 mb-24 lg:py-14 py-10">
@@ -325,7 +320,7 @@
         <div class=" bg-yellow-100 col-span-2 row-span-3 w-full relative rounded-xl h-auto">
           <div class="ml-5 mb-0 mt-10 space-y-1 md:ml-12 md:space-y-2 lg:mx-3">
             <h1 class="heading-font text-xl lg:text-4xl md:text-4xl">T-Shirt For Cats</h1>
-            <p class="sora">Discover a world of treats , toys and <br> essentials handpicked for.</p>
+            <p class="sora">Discover a world of treats , toys and <br> essentials handpicked for pet.</p>
             <div>
               <button class="btn bg-white px-6 py-3">Find a pet</button>
             </div>
@@ -482,7 +477,8 @@
       <!--price card container -->
       <div class="flex flex-col lg:flex-row mt-12 lg:gap-4 space-y-6 lg:space-y-0 w-full">
         <!-- div-1 -->
-        <div class="lg:w-[70%] w-full shadow-lg flex items-center bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD] py-5 rounded-xl">
+        <div
+          class="lg:w-[70%] w-full shadow-lg flex items-center bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD] py-5 rounded-xl">
           <!-- content -->
           <div class="flex-1 ml-10">
             <h1 class="sora text-xl hidden sm:block lg:block">Under Price</h1>
@@ -507,9 +503,9 @@
           </div>
 
           <!-- Product Image -->
-           <div class="flex justify-end">
+          <div class="flex justify-end">
             <img src="./c1-assets/cute-pet-mid.png" alt="">
-           </div>
+          </div>
 
 
         </div>
@@ -571,7 +567,6 @@
           </div>
         </div>
       </div>
-
     </section>
   </footer>
 </body>
